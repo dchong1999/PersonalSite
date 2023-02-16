@@ -1,0 +1,107 @@
+/* ~~~~~~~~Common Features~~~~~~~~ */
+
+.center{
+  text-align: center;
+}
+
+.me{
+  width: 200px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+
+.nav{
+  --bs-nav-link-color: black;
+  --bs-nav-link-hover-color: #2c7d29;
+  padding: 5px;
+}
+
+.nav-link{
+  font-size: 1.10rem;
+}
+
+.windup{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer{
+  margin-top: 50px;
+}
+
+.socials{
+  width: 3em;
+  padding: 8px;
+}
+
+.copyright{
+  font-size: x-small;
+}
+
+/* ~~~~~~~~Home Page Specific~~~~~~~~ */
+
+.bounded{
+  max-width: 45vw;
+  margin-left: 27.5vw;
+}
+
+.skillTitle{
+  color: #285942;
+}
+
+.skill-section{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.skill{
+  background-color: white;
+  border-color: 285942;
+  border-style: solid;
+  margin: 3px;
+  padding: 5px;
+  border-radius: .25rem;
+  display: inline-block;
+  font-size: 95%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.skill:hover{
+  background-color: #baebbb;
+}
+
+/* ~~~~~~~~About Page Specific~~~~~~~~ */
+
+.bounded2{
+  max-width: 55vw;
+  margin-left: 20vw;
+}
+
+.visitor{
+  font-size: 1.3em;
+}
+
+.about{
+  text-align: left;
+}
+
+.aboutlinks{
+  text-decoration: none;
+  color: #2c7d29;
+}
+
+.aboutPhoto{
+  margin-bottom: 10px;
+}
+
+/* ~~~~~~~~Project Page Specific~~~~~~~~ */
+.bar{
+  background-color: #baebbb;
+}
