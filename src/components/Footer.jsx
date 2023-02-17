@@ -7,7 +7,7 @@ const Footer = () => {
   return(
     <footer className='footer'>
       <div>
-        <a href='mailto:dchong@gmail.com' target='_blank'>
+        <a href='mailto:dchong0123@gmail.com' target='_blank'>
           <img className='socials' src={email} alt='email'/>
         </a>
         <a href='https://www.github.com/dchong1999' target='_blank'>
