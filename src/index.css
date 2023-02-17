@@ -71,8 +71,9 @@ body{
 
 .skill{
   background-color: white;
-  border-color: 285942;
+  border-color: #285942;
   border-style: solid;
+  border-width: 1%;
   margin: 3px;
   padding: 5px;
   border-radius: .25rem;
