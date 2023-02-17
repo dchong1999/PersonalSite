@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
-import Resume from './components/Resume.pdf';
+import Resume from './components/DianaChongResume.pdf';
 
 const Navbar = () => {
   return(

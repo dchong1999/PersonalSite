@@ -1,4 +1,9 @@
 /* ~~~~~~~~Common Features~~~~~~~~ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+body{
+  background-color: #f3f3f3;
+}
 
 .center{
   text-align: center;
@@ -11,6 +16,10 @@
   object-fit: cover;
   margin-top: 45px;
   margin-bottom: 10px;
+}
+
+.name{
+  font-family: 'Montserrat';
 }
 
 .nav{
@@ -29,7 +38,7 @@
 }
 
 .footer{
-  margin-top: 50px;
+  margin-top: 5%;
 }
 
 .socials{
@@ -39,6 +48,9 @@
 
 .copyright{
   font-size: x-small;
+  margin-bottom: 0rem;
+  padding-bottom: 1rem;
+
 }
 
 /* ~~~~~~~~Home Page Specific~~~~~~~~ */
@@ -74,7 +86,8 @@
 }
 
 .skill:hover{
-  background-color: #baebbb;
+  background-color: #e5fda9;
+  color: #2b5821;
 }
 
 /* ~~~~~~~~About Page Specific~~~~~~~~ */
@@ -89,7 +102,7 @@
 }
 
 .about{
-  text-align: left;
+  text-align: justify;
 }
 
 .aboutlinks{
@@ -98,10 +111,52 @@
 }
 
 .aboutPhoto{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 /* ~~~~~~~~Project Page Specific~~~~~~~~ */
 .bar{
-  background-color: #baebbb;
+  background-image: linear-gradient(to right, #34a680, #63b6a4, #a3e780, #c7ef6b, #ebf95b);
+  padding-top: 25px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.footerbar{
+  background-image: linear-gradient(to left, #34a680, #63b6a4, #a3e780, #c7ef6b, #ebf95b);
+  position: absolute;
+  width: 100%;
+}
+
+.card{
+  width: 20rem;
+  margin: 15px 0px;
+}
+
+.cardpic{
+  width: 19.9rem;
+  height: 6.5rem;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card-body{
+  height: 30rem;
+}
+
+.card-text{
+  text-align: left;
+  margin-right: 10px;
+}
+
+.btn{
+  background-color: #68be3c;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 35%;
+}
+
+.btn:hover{
+  background-color: #b2dd9d;
 }
