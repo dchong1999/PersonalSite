@@ -131,6 +131,7 @@ body{
 .card{
   width: 20rem;
   margin: 15px 0px;
+  border: darkgrey 1px solid;
 }
 
 .cardpic{
@@ -138,6 +139,7 @@ body{
   height: 6.5rem;
   object-fit: cover;
   object-position: top;
+  border: darkgrey 1px solid;
 }
 
 .card-body{
