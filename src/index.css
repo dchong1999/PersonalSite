@@ -147,17 +147,16 @@ body{
   background-image: linear-gradient(to left, #34a680, #63b6a4, #a3e780, #c7ef6b, #ebf95b);
   position: absolute;
   width: 100%;
+  margin-top: 30px;
 }
 
 .card{
-  width: 20rem;
-  margin: 15px 0px;
+  margin: 10px 0px;
   border: darkgrey 1px solid;
 }
 
 .cardpic{
-  width: 19.9rem;
-  height: 6.5rem;
+  height: 6rem;
   object-fit: cover;
   object-position: top;
   border: darkgrey 1px solid;
@@ -169,7 +168,7 @@ body{
 
 .card-text{
   text-align: left;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .btn{
